@@ -1,0 +1,67 @@
+[
+  {
+    "id": "Q1",
+    "question": "Who is the CEO of Cedarline Analytics?",
+    "gold": "Ken Adeyemi",
+    "must_contain": ["ken adeyemi"],
+    "gold_docs": ["DOC01", "DOC05", "DOC09"],
+    "kind": "easy"
+  },
+  {
+    "id": "Q2",
+    "question": "What is PulseBoard?",
+    "gold": "Cedarline's analytics dashboard, hosted on BluePeak Cloud.",
+    "must_contain": ["dashboard"],
+    "gold_docs": ["DOC07", "DOC01"],
+    "kind": "easy"
+  },
+  {
+    "id": "Q3",
+    "question": "Who leads engineering at the vendor that hosts PulseBoard?",
+    "gold": "Priya Shah",
+    "must_contain": ["priya shah"],
+    "must_not_contain": [],
+    "gold_docs": ["DOC04", "DOC12", "DOC07", "DOC03"],
+    "kind": "multihop"
+  },
+  {
+    "id": "Q4",
+    "question": "Who manages the Cedarline person who signed the Harborline contract?",
+    "gold": "Ken Adeyemi",
+    "must_contain": ["ken adeyemi"],
+    "gold_docs": ["DOC06", "DOC02", "DOC09"],
+    "kind": "multihop"
+  },
+  {
+    "id": "Q5",
+    "question": "Does PulseMail run on BluePeak Cloud?",
+    "gold": "No. PulseMail runs on Cedarline's own servers, not on BluePeak Cloud.",
+    "must_contain": ["no"],
+    "gold_docs": ["DOC08"],
+    "kind": "contrast"
+  },
+  {
+    "id": "Q6",
+    "question": "How do customers get a service credit if PulseBoard is down for more than 8 hours in a month?",
+    "gold": "Email billing@cedarline.example to request a 10% service credit, applied to the next invoice. It does not apply to scheduled maintenance announced at least 48 hours in advance.",
+    "must_contain": ["billing@cedarline.example", "10%"],
+    "gold_docs": ["DOC10"],
+    "kind": "policy"
+  },
+  {
+    "id": "Q7",
+    "question": "Who used to work at BluePeak before becoming CEO of Cedarline?",
+    "gold": "Ken Adeyemi",
+    "must_contain": ["ken adeyemi"],
+    "gold_docs": ["DOC05"],
+    "kind": "easy"
+  },
+  {
+    "id": "Q8",
+    "question": "Which Cedarline product does not run on BluePeak?",
+    "gold": "PulseMail",
+    "must_contain": ["pulsemail"],
+    "gold_docs": ["DOC08"],
+    "kind": "contrast"
+  }
+]

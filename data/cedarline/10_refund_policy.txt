@@ -1,0 +1,4 @@
+Title: Service credit policy
+Source: DOC10
+
+If PulseBoard is down for more than 8 hours in a calendar month, customers can request a 10% service credit by emailing billing@cedarline.example. Credits are applied to the next invoice. This does not apply to scheduled maintenance announced at least 48 hours in advance.
