@@ -1,0 +1,4 @@
+Title: PulseBoard product page
+Source: DOC07
+
+PulseBoard is Cedarline's analytics dashboard. It is hosted on BluePeak Cloud. Current customers include Harborline Retail and Northwind Goods.

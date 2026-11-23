@@ -1,0 +1,4 @@
+Title: PulseMail product page
+Source: DOC08
+
+PulseMail is Cedarline's email insights product. It runs on Cedarline's own servers, not on BluePeak Cloud. The only current customer is Northwind Goods.

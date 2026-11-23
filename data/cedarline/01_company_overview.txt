@@ -1,0 +1,4 @@
+Title: Company overview
+Source: DOC01
+
+Cedarline Analytics is a B2B analytics company based in Lagos. We build two products: PulseBoard, a live dashboard, and PulseMail, an email insights tool. Our CEO is Ken Adeyemi.
